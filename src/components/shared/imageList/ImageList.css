@@ -1,0 +1,36 @@
+.imageList{
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+.image img{
+    width: "5px";
+    height: "5px";
+}
+.doc-image{
+    width: 180px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    max-width: 180px;
+    align-items: center;
+    border: 2px solid rgb(0, 191, 255);
+}
+.image .bottom p{
+    background-color: blue;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 14px;
+    color: white;
+}
+.image .bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    width: 180px;
+    align-items: center;
+    height: 3vh;
+}
